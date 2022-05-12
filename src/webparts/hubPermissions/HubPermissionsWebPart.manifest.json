@@ -1,0 +1,22 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "5e6bda5e-8d0d-4cd3-a165-1c211e221322",
+  "alias": "HubPermissionsWebPart",
+  "componentType": "WebPart",
+  "supportsFullBleed": true,
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Other" },
+    "title": { "default": "Hub Permissions" },
+    "description": { "default": "Hub Permissions description" },
+    "officeFabricIconFontName": "Encryption",
+    "properties": {
+      "description": "Hub Permissions"
+    }
+  }]
+}

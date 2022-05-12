@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "SharePoint Hub Permission Management",
+    "id": "a9ccce75-a9aa-4baf-87b9-e18ad36c4280",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "SharePoint Hub Permission Management"
+      },
+      "longDescription": {
+        "default": "SharePoint Hub Permission Management"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "SharePoint Hub Permission Management",
+        "description": "The feature that activates elements of the sp-hub-permission-management solution.",
+        "id": "ef477a93-08c8-475d-9528-3ac81dc79749",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-hub-permission-management.sppkg"
+  }
+}

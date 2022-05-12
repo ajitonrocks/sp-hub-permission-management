@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "hub-permissions-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/hubPermissions/HubPermissionsWebPart.js",
+          "manifest": "./src/webparts/hubPermissions/HubPermissionsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HubPermissionsWebPartStrings": "lib/webparts/hubPermissions/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "sp-hub-permission-management",
+    "libraryId": "a9ccce75-a9aa-4baf-87b9-e18ad36c4280",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "sp-hub-permission-management",
+    "solutionShortDescription": "sp-hub-permission-management description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
